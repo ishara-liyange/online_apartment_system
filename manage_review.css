@@ -1,0 +1,59 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #5e5847; /* olive color for table header */
+    color: white;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Style for edit button */
+.edit-button {
+    background-color: #6ca728; /* Green color for edit button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.delete-button {
+    background-color: #c4650c; /* orange color for delete button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.edit-button:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+}

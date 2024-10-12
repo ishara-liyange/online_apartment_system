@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #E8D1C1;
+}
+
+form {
+    background-color: #E9E3D5;
+    border-radius: 10px;
+    width: 25%;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #000000;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #5E5847;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.form-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.showPasswordr {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.showPassword label {
+    margin-right: 10px;
+}
+
+.remember {
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember label {
+    margin-right: 10px;
+}
+
+.form-log {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+input[type="submit"] {
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    background-color: #B49C80;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.signup-button {
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    background-color: #B49C80;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}

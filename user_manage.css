@@ -1,0 +1,29 @@
+      
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #5e5847; /* olive color for table header */
+    color: white;
+}
+
+
+

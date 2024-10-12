@@ -1,0 +1,97 @@
+.user-profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: #E8D1C1;
+}
+
+.form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E9E3D5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 160px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+.update-btn {
+    background-color: #B49C80;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.update-btn:hover {
+    background-color: #5E5847;
+}
+
+.delete-btn {
+    background-color: #B49C80;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.delete-btn:hover {
+    background-color: #5E5847;
+}
+
+#imagePreview {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.form-body {
+    display: flex;
+    justify-content: center;
+}
+
+.form-log {
+    width: 50%;
+    margin: 20px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+}

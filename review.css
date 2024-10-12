@@ -1,0 +1,53 @@
+.review-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin: 20px 60px;
+}
+
+.review-card {
+    flex: 0 0 calc(23% - 50px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.review-card p {
+    margin: 0;
+}
+
+.review-card img {
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.review-card p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+}
+
+.review-btn {
+    background-color:#5e4847;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.review-btn:hover {
+background-color: #b49c80;}
+body{
+    background-color:#e2d5c6;
+}

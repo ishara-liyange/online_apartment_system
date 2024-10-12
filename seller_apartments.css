@@ -1,0 +1,61 @@
+body{
+
+    background-color:#E8D1C1;
+}
+.apartment_view {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+.action-links a {
+    margin-right: 8px;
+}
+
+.edit-btn {
+    background-color: #B49c80;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delete-btn {
+    background-color: #B49c80;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.edit-btn:hover{
+    background-color: #5E5847;
+}
+
+.delete-btn:hover{
+
+    background-color: #5E5847;
+}

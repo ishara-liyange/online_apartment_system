@@ -1,0 +1,45 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    background-color: #e2d5c6;
+}
+/* Styles for the inbox container */
+.inbox-container {
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #d0a074;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles for the welcome message */
+.inbox-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styles for individual complaints */
+.complaint {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f7f4;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.complaint p {
+    margin: 0;
+}
+
+/* Styles for the reply section */
+
+.complaint .reply {
+    font-style: Times New Roman;
+    color: #888;
+    background-color:#e9e3d5;
+    border-radius: 10px;
+    padding: 10px;
+}

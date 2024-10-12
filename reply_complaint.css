@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.reply-container form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 100px auto;
+    padding: 50px;
+    background-color: #d0a074;
+    border: 1px solid #0e0d0d;
+    border-radius: 20px;
+}
+
+/* Styles for labels */
+.reply-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.reply-container input,
+.reply-container textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.reply-container input[type='submit'] {
+    width: 30%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #5e5847;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.reply-container input[type='submit']:hover {
+    background-color: #7e6f45;
+}
